@@ -1,0 +1,6 @@
+C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\Dul\obj\Debug\Dul.csproj.AssemblyReference.cache
+C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\Dul\obj\Debug\Dul.csproj.CoreCompileInputs.cache
+C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\Dul\bin\Debug\Dul.dll
+C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\Dul\bin\Debug\Dul.pdb
+C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\Dul\obj\Debug\Dul.dll
+C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\Dul\obj\Debug\Dul.pdb
