@@ -157,6 +157,7 @@
     <Content Include="DotNetNote\BoardReply.aspx" />
     <Content Include="DotNetNote\BoardView.aspx" />
     <Content Include="DotNetNote\BoardWrite.aspx" />
+    <Content Include="DotNetNote\Controls\BoardEditorFormControl.aspx" />
     <Content Include="DotNetNote\Default.aspx" />
     <Content Include="DotNetNote\ImageDown.aspx" />
     <Content Include="DotNetNote\ImageText.aspx" />
@@ -283,6 +284,13 @@
     <Compile Include="DotNetNote\BoardWrite.aspx.designer.cs">
       <DependentUpon>BoardWrite.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DotNetNote\Controls\BoardEditorFormControl.aspx.cs">
+      <DependentUpon>BoardEditorFormControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DotNetNote\Controls\BoardEditorFormControl.aspx.designer.cs">
+      <DependentUpon>BoardEditorFormControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DotNetNote\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -323,8 +331,11 @@
     </Compile>
     <Compile Include="Models\BoardWriteFormType.cs" />
     <Compile Include="Models\ContentEncodingType.cs" />
+    <Compile Include="Models\INoteCommentRepository.cs" />
     <Compile Include="Models\INoteRepository.cs" />
     <Compile Include="Models\Note.cs" />
+    <Compile Include="Models\NoteComment.cs" />
+    <Compile Include="Models\NoteCommentRepository.cs" />
     <Compile Include="Models\NoteRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -353,7 +364,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Document\" />
-    <Folder Include="DotNetNote\Controls\" />
     <Folder Include="DotNetNote\Documents\" />
     <Folder Include="DotNetNote\images\" />
     <Folder Include="DotNetNote\Models\" />

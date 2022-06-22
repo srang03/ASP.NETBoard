@@ -103,3 +103,5 @@ C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\MemoEngine\obj\Debug\MemoEn
 C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\MemoEngine\obj\Debug\MemoEngine.pdb
 C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\MemoEngine\bin\Dul.dll
 C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\MemoEngine\bin\Dul.pdb
+C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\MemoEngine\bin\Dapper.dll
+C:\Users\Ian\Desktop\ian\C#\ASP.NET\board\MemoEngine\MemoEngine\bin\Dapper.xml
