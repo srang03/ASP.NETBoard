@@ -16,7 +16,7 @@ namespace Notes.Models
         public string Name { get; set; }
         [Display(Name = "이메일")]
         [EmailAddress(ErrorMessage = "이메일을 정확히 입력해주세요")]
-        public string Eamil { get; set; }
+        public string Email { get; set; }
 
         [Display(Name = "제목")]
         [Required(ErrorMessage = "* 제목을 입력해주세요.")]
@@ -25,7 +25,7 @@ namespace Notes.Models
         [Display(Name = "작성일")]
         public DateTime PostDate { get; set; }
 
-        public string PosIP { get; set; }
+        public string PostIP { get; set; }
 
         [Display(Name = "내용")]
         [Required(ErrorMessage = "* 내용을 작성해주세요")]
