@@ -10,7 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h3>글작성</h3>
+            <h3>게시판</h3>
+            <asp:Label ID="lbl_notice" runat="server" />
             <table>
                 <tr>
                     <td>이름</td>
@@ -74,7 +75,9 @@
                 %>
                 <tr>
                     <td><asp:Button ID="btn_save" runat="server" Text="저장" CssClass="btn btn-primary" OnClick="btn_save_Click" /></td>
-
+                </tr>
+                <tr>
+                    <td><asp:HyperLink ID="hpl_list" runat="server" Text="리스트" NavigateUrl="../BoardList.aspx" /></td>
                 </tr>
             </table>
         </div>
